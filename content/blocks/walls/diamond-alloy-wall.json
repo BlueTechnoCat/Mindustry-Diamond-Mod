@@ -1,6 +1,6 @@
 type: Wall
 name: Diamond Alloy Wall
-description: A wall made of diamond alloy with the ability of plastanium to absorb lasers but not beeing able to cut powernode conections
+description: A wall made of diamond alloy with the ability of plastanium to absorb lasers but not being able to cut powernode conections
 health: 4500
 absorbLasers: true
 requirements: [
