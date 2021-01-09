@@ -1,2 +1,2 @@
 # Diamond Mod
-A mod that adds a new creation block that creates a new material with new walls, a drill and even a ship! (This is my first mod attempt)
+A mod that adds a few new creation blocks that creates a new materials with new walls, drills and even new units! (This is my first mod attempt)
