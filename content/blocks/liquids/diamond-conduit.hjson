@@ -1,0 +1,13 @@
+type: ArmoredConduit
+name: Diamond Conduit
+description: A really resistant conduit
+health: 2500
+liquidPressure: 2.5
+liquidCapacity: 30
+requirements: [
+  diamond/2
+  metaglass/2
+  titanium/2
+]
+category: liquid
+research: plated-conduit

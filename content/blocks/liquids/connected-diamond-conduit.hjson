@@ -1,0 +1,12 @@
+type: Conduit
+name: Connected Diamond Conduit
+description: A really resistant conduit that connects with buildings
+health: 2000
+liquidPressure: 2.5
+liquidCapacity: 30
+requirements: [
+  diamond/2
+  metaglass/2
+]
+category: liquid
+research: plated-conduit

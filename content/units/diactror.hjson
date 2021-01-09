@@ -1,0 +1,30 @@
+type: flying
+name: Diactror
+description: An ultra resistant attack ship
+speed: 4
+flying: true
+rotateSpeed: 20
+commandLimit: 3
+drag: 0.3
+health: 10000
+itemCapacity: 50
+research: antumbra
+weapons: [
+  {
+  name: diamond-shooter
+  x: 2
+  y: 1
+  mirror: true
+  reload: 10
+  shootSound: shoot
+  alternate: true
+  bullet: {
+    bullet: BasicBulletType
+	frontColor: 00ffff
+	backColor: 0088ff
+	speed: 3
+	lifetime: 94	
+	damage: 3000
+    }
+  }
+]

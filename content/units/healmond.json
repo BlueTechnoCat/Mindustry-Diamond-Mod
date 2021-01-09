@@ -1,0 +1,41 @@
+type: flying
+name: Healmond
+description: A strong support unit. Not made for combat
+speed: 1.5
+armor: 20
+mineTier: 10
+mineSpeed: 50
+buildSpeed: 50
+flying: true
+health: 20000
+itemCapacity: 250
+research: diactror
+weapons: 
+  [
+    {
+	  name: heal-cannon	  
+	  x: 0
+	  y: 0
+	  mirror: false
+	  shootSound: railgun
+	  chargeSound: lasercharge2
+	  firstShotDelay: 40
+	  ejectEffect: none
+	  reload: 100
+	  bullet: {
+	    bullet: LaserBoltBulletType
+		width: 10
+		height: 25		
+		frontColor: ffffff
+		backColor: 00ff00
+	    damage: 50
+		lifetime: 100
+	    healPercent: 50
+		shootEffect: greenLaserChargeSmall
+		collidesTeam: true
+		speed: 2
+        hitEffect: healWave		
+	  }
+	  
+	}
+  ]

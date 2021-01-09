@@ -1,0 +1,25 @@
+type: Drill
+name: Mini Diamond Drill
+description: A smaller version of the diamond drill, cheaper but slower
+tier: 5
+liquidCapacity: 15
+itemCapacity: 5
+liquidBoostIntensity: 2.5
+drillTime: 20
+health: 1750
+consumes: {
+  power: 0.35
+  liquid: {
+	liquid: water
+	amount: 0.1
+	booster: true
+	optional: true
+  }
+}
+requirements: [
+  diamond/35
+  titanium/20
+  graphite/25
+]
+category: production
+research: laser-drill

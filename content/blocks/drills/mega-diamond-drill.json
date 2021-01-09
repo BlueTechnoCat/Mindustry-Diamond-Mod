@@ -1,0 +1,28 @@
+type: Drill
+name: Mega Diamond Drill
+description: A bigger version of the diamond drill, faster but more expensive
+tier: 6
+liquidCapacity: 45
+itemCapacity: 30
+size: 3
+health: 4250
+drillTime: 20
+drillEffect: mineBig
+updateEffect: pulverize
+drawRim: true
+consumes: {
+  power: 1.05
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  diamond/105
+  titanium/80
+  graphite/75
+]
+category: production
+research: diamond-drill

@@ -1,0 +1,43 @@
+name: Diamond Air Factory
+description: A factory that generates advanced flying units
+type: UnitFactory
+size: 3
+health: 2000
+consumes: {
+  power: 10
+  liquid: {
+    liquid: cryofluid
+	amount: 1
+	}  
+}
+plans: [
+  {
+    unit: diactror
+    requirements: [  
+	    diamond/525
+	    silicon/1000
+	    thorium/825
+	  ]  
+    time: 900
+  }
+  {
+	unit: healmond
+	requirements: [
+		diamond/525
+	    silicon/1000
+	    diamond-alloy/825
+	]
+	time: 900
+  }
+]
+
+
+category: units
+research: air-factory
+requirements: [
+  copper/625
+  lead/625
+  diamond/325
+  silicon/545
+  graphite/500
+]

@@ -1,0 +1,30 @@
+type: flying
+name: Giactor
+description: An upgraded version of the diactror, capable of causing massive damage with it's missiles
+flying: true
+speed: 3.5
+health: 30000
+rotateSpeed: 40
+drag: 0.3
+itemCapacity: 100
+commandLimit: 6
+research: diactror
+weapons: [
+  {
+    name: diamond-crusher
+	x: 3
+	y: 1
+	mirror: true
+	reload: 10
+	shootSound: shoot
+	alternate: true
+	bullet: {
+	  type: MissileBulletType
+	  frontColor: 00ffff
+	  backColor: 0088ff
+	  speed: 4
+	  lifetime: 70
+	  damage: 10000
+	}
+  }
+]

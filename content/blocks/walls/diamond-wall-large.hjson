@@ -1,0 +1,10 @@
+type: Wall
+name: Large Diamond Wall
+description: A extremly resistant wall. Spans multiple tiles
+health: 10000
+size: 2
+requirements: [
+  diamond/24
+]
+category: defense
+research: diamond-wall

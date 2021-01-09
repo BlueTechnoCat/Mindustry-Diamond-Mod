@@ -1,0 +1,9 @@
+type: Wall
+name: Diamond Wall
+description: A Extremly resistant wall
+health: 5000
+requirements: [
+  diamond/6
+]
+category: defense
+research: thorium-wall-large

@@ -1,0 +1,13 @@
+type: Conveyor
+name: Connected Diamond Conveyor
+description: A really fast and resistant conveyor that connects with buildings
+health: 2000
+displayedSpeed: 24
+requirements: [
+  diamond/2
+  copper/2
+  lead/2
+]
+category: distribution
+speed: 0.2
+research: armored-conveyor

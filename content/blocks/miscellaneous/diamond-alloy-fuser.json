@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Diamond Alloy Fuser
+description: Using mater fusion tecnology, this machine can combine diamonds and plastanium to create diamond alloy
+size: 3
+hasLiquids: false
+health: 3500
+itemCapacity: 15
+craftEffect: formsmoke
+updateEffect: plasticBurn
+craftTime: 120
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+	  diamond/1
+	  plastanium/1
+    ]
+  }
+}
+requirements: [
+  silicon/625
+  plastanium/820
+  diamond/425
+  thorium/575
+]
+research: diamond-compresor
+outputItem: diamond-alloy/1
+category: crafting
