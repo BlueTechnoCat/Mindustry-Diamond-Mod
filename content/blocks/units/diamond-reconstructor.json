@@ -1,5 +1,6 @@
 type: Reconstructor
 name: Diamond Reconstructor
+description: Upgrades the diamond units to their final tier
 size: 5
 constructTime: 1200
 consumes: {
