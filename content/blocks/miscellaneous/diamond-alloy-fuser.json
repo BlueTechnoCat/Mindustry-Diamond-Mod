@@ -6,7 +6,7 @@ hasLiquids: false
 health: 3500
 itemCapacity: 15
 craftEffect: formsmoke
-updateEffect: plasticBurn
+updateEffect: plasticburn
 craftTime: 120
 consumes: {
   power: 1.5
