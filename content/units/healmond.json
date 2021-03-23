@@ -28,7 +28,7 @@ weapons:
 		height: 25		
 		frontColor: ffffff
 		backColor: 00ff00
-	    damage: 50
+	    damage: 500
 		lifetime: 100
 	    healPercent: 50
 		shootEffect: greenLaserChargeSmall
