@@ -1,0 +1,22 @@
+{
+  "type": "LaserTurret",
+  "name": "Diamond Breaker",
+  "description": "",
+  "size": 4,
+  "range": 520,
+  "powerUse": 750,
+  "shots": 3,
+  "reloadTime": 80,
+  "spread": 15,
+  "shootType": {
+    "type": "LaserBulletType",
+    "colors": [
+      "44ffff",
+      "00ffff",
+      "ffffff"
+    ],
+    "length": 520,
+    "width": 10,
+    "damage": 2500
+  }
+}
