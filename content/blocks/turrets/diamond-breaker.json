@@ -1,10 +1,10 @@
 {
-  "type": "LaserTurret",
+  "type": "PowerTurret",
   "name": "Diamond Breaker",
   "description": "Uses a huge amount of power to fire three large lasers.",
   "size": 4,
   "range": 520,
-  "powerUse": 750,
+  "powerUse": 12.5,
   "shots": 3,
   "reloadTime": 80,
   "spread": 15,
@@ -17,7 +17,7 @@
       "ffffff"
     ],
     "length": 520,
-    "width": 10,
+    "width": 30,
     "damage": 2500
   },
   "requirements": [
