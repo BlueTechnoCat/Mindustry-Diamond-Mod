@@ -1,0 +1,14 @@
+type: StorageBlock
+name: Diamond Vault
+description: A resistant vault capable of storing thousands of items
+health: 3000
+itemCapacity: 10000
+hasItems: true
+size: 4
+requirements: [
+  titanium/325
+  thorium/325
+  diamond/325
+]
+category: effect
+research: vault

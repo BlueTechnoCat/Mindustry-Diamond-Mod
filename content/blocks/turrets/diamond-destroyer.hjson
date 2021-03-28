@@ -1,0 +1,53 @@
+type: ItemTurret
+name: Diamond Destroyer
+description: Shoots diamonds to make huge amount of damage. It can also shoot metaglass, faster but weaker
+health: 3500
+size: 3
+range: 320
+reloadTime: 90
+restitution: 0.2
+targetAir: true
+ammoTypes: {
+  diamond: {
+  type: ArtilleryBulletType
+  damage: 1500
+  width: 15
+  height: 10
+  speed: 2
+  lifetime: 80
+  splashDamage: 750
+  splashDamageRadius: 50
+  frontColor: 00ffff
+  backColor: 0088ff
+  fragBullets: 4
+  homingPower: 1
+  ammoMultiplier: 3
+  fragBullet: {
+    type: MissileBulletType
+	damage: 375
+	speed: 8
+	lifetime: 10
+	homingPower: 1
+    }
+  }
+  metaglass: {
+  type: MissileBulletType
+  damage: 75
+  speed: 8
+  lifetime: 40
+  frontColor: ffffff
+  backColor: 00ffff
+  homingPower: 1
+  reloadMultiplier: 20
+  ammoMultiplier: 5
+  }
+}
+
+requirements: [
+  graphite/150
+  diamond/75
+  titanium/125
+  thorium/100
+]
+category: turret
+research: fuse
