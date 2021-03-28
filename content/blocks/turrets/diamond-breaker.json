@@ -18,7 +18,8 @@
     ],
     "length": 520,
     "width": 50,
-    "damage": 2500
+    "damage": 2500,
+    "lifetime": 65
   },
   "requirements": [
     "diamond-alloy/450",
