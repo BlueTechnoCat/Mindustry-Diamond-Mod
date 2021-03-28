@@ -1,0 +1,26 @@
+{
+  "type": "GenericCrafter",
+  "name": "Dark Diamond Forge",
+  "description": "",
+  "size": 3,
+  "hasLiquids": false,
+  "craftTime": 90,
+  "consumes": {
+    "power": 1.2,
+    "items": {
+      "items": [
+        "diamond/1",
+        "graphite/3",
+        "coal/3"
+      ]
+    }
+  },
+  "requirements": [
+    "lead/340",
+    "graphite/260",
+    "titanium/200",
+    "thorium/100"
+  ],
+  "research": "diamond-compresor",
+  "category": "crafting"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Diamond Cleaner",
+  "description": "Using the abrasive texture of sand and water, it cleans the diamonds of any impurities it may have.",
+  "hasItems": true,
+  "hasLiquids": true,
+  "liquidCapacity": 30,
+  "health": 2500,
+  "craftTime": 75,
+  "size": 3,
+  "consumes": {
+    "power": 0.9,
+    "items": {
+      "items": [
+        "diamond/1",
+        "sand/2"
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.5
+    }
+  },
+  "requirements": [
+    "lead/320",
+    "metaglass/230",
+    "titanium/200",
+    "thorium/100"
+  ],
+  "research": "diamond-compresor",
+  "category": "crafting"
+}
