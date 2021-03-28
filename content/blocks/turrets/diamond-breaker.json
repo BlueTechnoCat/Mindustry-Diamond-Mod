@@ -1,13 +1,14 @@
 {
   "type": "LaserTurret",
   "name": "Diamond Breaker",
-  "description": "",
+  "description": "Uses a huge amount of power to fire three large lasers.",
   "size": 4,
   "range": 520,
   "powerUse": 750,
   "shots": 3,
   "reloadTime": 80,
   "spread": 15,
+  "shootSound": "laserblast",
   "shootType": {
     "type": "LaserBulletType",
     "colors": [
@@ -18,5 +19,14 @@
     "length": 520,
     "width": 10,
     "damage": 2500
-  }
+  },
+  "requirements": [
+    "diamond-alloy/450",
+    "diamond/500",
+    "thorium/750",
+    "surge-alloy/400",
+    "titanium/900"
+  ],
+  "research": "meltdown",
+  "category": "turret"
 }
