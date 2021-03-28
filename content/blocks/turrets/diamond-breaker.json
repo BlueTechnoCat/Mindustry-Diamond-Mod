@@ -6,18 +6,18 @@
   "range": 520,
   "powerUse": 12.5,
   "shots": 3,
-  "reloadTime": 80,
+  "reloadTime": 180,
   "spread": 15,
   "shootSound": "laserblast",
   "shootType": {
     "type": "LaserBulletType",
     "colors": [
-      "44ffff",
       "00ffff",
+      "44ffff",
       "ffffff"
     ],
     "length": 520,
-    "width": 60,
+    "width": 50,
     "damage": 2500
   },
   "requirements": [
