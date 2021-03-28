@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Dark Diamond Forge",
-  "description": "",
+  "description": "Using graphite, coal and diamonds, it creates a darker and powerful new type of diamond.",
   "size": 3,
   "hasLiquids": false,
   "craftTime": 90,
@@ -21,6 +21,7 @@
     "titanium/200",
     "thorium/100"
   ],
+  "outputItem": "dark-diamond",
   "research": "diamond-compresor",
   "category": "crafting"
 }
