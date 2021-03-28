@@ -1,8 +1,9 @@
 {
   "name": "Dark Diamond",
-  "description": "",
+  "description": "A new type of diamond, reforged to gain new resistance and power",
+  "details": "After being combined with extra coal and graphite, the diamond gains a new darker color",
   "hardness": 11,
   "cost": 9,
-  "color": "",
+  "color": "0044ff",
   "research": "diamond"
 }

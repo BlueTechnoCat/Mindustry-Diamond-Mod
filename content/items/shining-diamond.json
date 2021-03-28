@@ -1,8 +1,8 @@
 {
   "name": "Shining Diamond",
-  "description": "",
-  "color": "",
+  "description": "A cleaner and more transparent diamond, expertly refined for better usage",
   "hardness": 12,
   "cost": 8,
+  "color": "aaffff",
   "research": "diamond"
 }
