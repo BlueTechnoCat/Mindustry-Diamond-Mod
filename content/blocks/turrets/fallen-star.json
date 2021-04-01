@@ -4,9 +4,18 @@
   "description": "One of the strongest weapon in the diamond weaponry. Creates a dark colored diamond beam that deals a massive damage and causes everything to burn.",
   "details": "Once constructed by the order of a mad king, despite it's dark color, it can burn everything in its path melting even the best-armored structures or units",
   "size": 10,
+  "range": 1000,
   "reloadTime": 360,
   "shootSound": "laserblast",
   "firstShotDelay": 50,
+  "chargeEffect": {
+    "type": "WaveEffect",
+    "sizeFrom": 100,
+    "sizeTo": 0,
+    "colorFrom": "000066",
+    "colorTo": "000000",
+    "sides": 1
+  },
   "consumes": {
     "power": 84
   },
@@ -17,14 +26,6 @@
       "lenght": 1000,
       "width": 80,
       "damage": 50000,
-      "shootEffect": {
-        "type": "WaveEffect",
-        "sizeFrom": 100,
-        "sizeTo": 0,
-        "colorFrom": "000066",
-        "colorTo": "000000",
-        "sides": 1
-      },
       "makeFire": true,
       "incendAmount": 15,
       "incendSpread": 10,
@@ -45,5 +46,5 @@
     "phase-fabric/700"
   ],
   "research": "diamond-breaker",
-  "category": "turret",
+  "category": "turret"
 }
