@@ -7,7 +7,7 @@
   "range": 1000,
   "reloadTime": 360,
   "shootSound": "laserblast",
-  "chargeTime": 50,
+  /*"chargeTime": 50,
   "chargeEffect": {
     "type": "WaveEffect",
     "sizeFrom": 100,
@@ -15,7 +15,7 @@
     "colorFrom": "000066",
     "colorTo": "000000",
     "sides": 1
-  },
+  },*/
   "consumes": {
     "power": 84
   },
@@ -23,7 +23,7 @@
     "dark-diamond": {
       "type": "LaserBulletType",
       "ammoMultiplier": 1,
-      "lenght": 1000,
+      "length": 1000,
       "width": 80,
       "damage": 50000,
       "makeFire": true,
