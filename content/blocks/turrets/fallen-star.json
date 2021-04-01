@@ -17,14 +17,14 @@
       "lenght": 1000,
       "width": 80,
       "damage": 50000,
-      "shootEffect": [
-        "type: WaveEffect",
-        "sizeFrom: 100",
-        "sizeTo: 0",
-        "colorFrom: 000066",
-        "colorTo: 000000",
-        "sides: 1"
-      ],
+      "shootEffect": {
+        "type": "WaveEffect",
+        "sizeFrom": 100,
+        "sizeTo": 0,
+        "colorFrom": "000066",
+        "colorTo": "000000",
+        "sides": 1
+      },
       "makeFire": true,
       "incendAmount": 15,
       "incendSpread": 10,
