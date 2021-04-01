@@ -4,6 +4,7 @@
   "description": "One of the strongest weapon in the diamond weaponry. Creates a dark colored diamond beam that deals a massive damage and causes everything to burn.",
   "details": "Once constructed by the order of a mad king, despite it's dark color, it can burn everything in its path melting even the best-armored structures or units",
   "size": 10,
+  "health": 15000,
   "range": 1000,
   "reloadTime": 240,
   "shootSound": "laserblast",

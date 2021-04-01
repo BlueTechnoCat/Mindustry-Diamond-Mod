@@ -3,6 +3,7 @@
   "name": "Diamond Breaker",
   "description": "Uses a huge amount of power to fire three large lasers.",
   "size": 4,
+  "health": 4500,
   "range": 520,
   "powerUse": 34,
   "shots": 3,
