@@ -8,14 +8,6 @@
   "reloadTime": 240,
   "shootSound": "laserblast",
   "firstShotDelay": 40,
-  /*"chargeEffect": {
-    "type": "WaveEffect",
-    "sizeFrom": 100,
-    "sizeTo": 0,
-    "colorFrom": "000066",
-    "colorTo": "000000",
-    "sides": 1
-  },*/
   "consumes": {
     "power": 84
   },
@@ -27,7 +19,17 @@
       "width": 80,
       "damage": 50000,
       "makeFire": true,
-      "shotEffect": "greenLaserCharge",
+      /*"shootEffect": {
+        "type": "WaveEffect",
+        "sizeFrom": 100,
+        "sizeTo": 0,
+        "strokeFrom": 3,
+        "stronkeTo": 0,
+        "colorFrom": "000066",
+        "colorTo": "000000",
+        "sides": 1
+        },*/
+      "shootEffect": "greenLaserCharge",
       "incendAmount": 15,
       "incendSpread": 10,
       "lifetime": 80,
