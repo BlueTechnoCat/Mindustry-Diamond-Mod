@@ -15,9 +15,9 @@
         "lifetime": 80,
         "sizeFrom": 120,
         "sizeTo": 0,
-        "strokeFrom": 15,
+        "strokeFrom": 10,
         "strokeTo": 0,
-        "colorFrom": "0088ff",
+        "colorFrom": "0000ff",
         "colorTo": "000066"
       },
   "consumes": {
