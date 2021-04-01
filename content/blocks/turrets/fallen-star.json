@@ -35,5 +35,15 @@
         "0000cc"
       ]
     }
-  }
+  },
+  "requirements": [
+    "dark-diamond/100",
+    "lead/950",
+    "titanium/900",
+    "diamond-alloy/750",
+    "thorium/800",
+    "phase-fabric/700"
+  ],
+  "research": "diamond-breaker",
+  "category": "turret",
 }
