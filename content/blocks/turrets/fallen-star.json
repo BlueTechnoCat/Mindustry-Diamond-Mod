@@ -17,18 +17,19 @@
         "lifetime": 80,
         "sizeFrom": 80,
         "sizeTo": 0,
-        "strokeFrom": 25,
+        "strokeFrom": 15,
         "strokeTo": 0,
         "colorFrom": "0088ff",
         "colorTo": "000066"
-      }
+      },
       {
-        "type": "WaveEffect",
+        "type": "ParticleEffect",
         "lifetime": 80,
-        "sizeFrom": 0,
-        "sizeTo": 40,
-        "strokeFrom": 25,
-        "strokeTo": 0,
+        "length": -10,
+        "baseLength": 10,
+        "particles": 50,
+        "sizeFrom": 3,
+        "sizeTo": 0,
         "colorFrom": "0088ff",
         "colorTo": "000066"
       }
