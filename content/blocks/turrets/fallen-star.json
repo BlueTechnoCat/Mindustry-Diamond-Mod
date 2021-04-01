@@ -5,10 +5,10 @@
   "details": "Once constructed by the order of a mad king, despite it's dark color, it can burn everything in its path melting even the best-armored structures or units",
   "size": 10,
   "range": 1000,
-  "reloadTime": 360,
+  "reloadTime": 240,
   "shootSound": "laserblast",
-  /*"chargeTime": 50,
-  "chargeEffect": {
+  "firstShotDelay": 40,
+  /*"chargeEffect": {
     "type": "WaveEffect",
     "sizeFrom": 100,
     "sizeTo": 0,
@@ -27,6 +27,7 @@
       "width": 80,
       "damage": 50000,
       "makeFire": true,
+      "shotEffect": "greenLaserCharge",
       "incendAmount": 15,
       "incendSpread": 10,
       "lifetime": 80,
