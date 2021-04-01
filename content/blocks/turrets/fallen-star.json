@@ -10,11 +10,11 @@
   "shootEffect": {
     "type": "WaveEffect",
     "lifetime": 80,
-    "sizeFrom": 800,
+    "sizeFrom": 400,
     "sizeTo": 0,
-    "strokeFrom": 15,
+    "strokeFrom": 25,
     "strokeTo": 0,
-    "colorFrom": "0000ff",
+    "colorFrom": "0088ff",
     "colorTo": "000000"     
   },
   "consumes": {
