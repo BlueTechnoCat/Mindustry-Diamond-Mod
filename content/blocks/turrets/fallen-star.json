@@ -7,8 +7,7 @@
   "range": 1000,
   "reloadTime": 240,
   "shootSound": "laserblast",
-  "shootEffect": "greenLaserCharge",
-  /*"shootEffect": {
+  "shootEffect": {
     "type": "WaveEffect",
     "sizeFrom": 100,
     "sizeTo": 0,
@@ -17,8 +16,8 @@
     "colorFrom": "000066",
     "colorTo": "000000",
     "sides": 1
-    },*/
-  "firstShotDelay": 40,
+    },
+  "chargeTime": 50,
   "consumes": {
     "power": 84
   },
