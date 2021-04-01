@@ -4,7 +4,7 @@
   "description": "Uses a huge amount of power to fire three large lasers.",
   "size": 4,
   "range": 520,
-  "powerUse": 12.5,
+  "powerUse": 34,
   "shots": 3,
   "reloadTime": 180,
   "spread": 15,

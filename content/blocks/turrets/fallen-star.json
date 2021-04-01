@@ -1,0 +1,38 @@
+{
+  "type": "ItemTurret",
+  "name": "The Fallen Star",
+  "description": "One of the strongest weapon in the diamond weaponry. Creates a dark colored diamond beam that deals a massive damage and causes everything to burn.",
+  "details": "Once constructed by the order of a mad king, despite it's dark color, it can burn everything in its path melting even the best-armored structures or units",
+  "size": 10,
+  "reloadTime": 360,
+  "shootSound": "laserblast",
+  "consumes": {
+    "power": 84
+  },
+  "ammoTypes": {
+    "dark-diamond": {
+      "type": "LaserBulletType",
+      "ammoMultiplier": 1,
+      "lenght": 1000,
+      "width": 80,
+      "damage": 50000,
+      "shootEffect": [
+        "type: WaveEffect",
+        "sizeFrom: 100",
+        "sizeTo: 0",
+        "colorFrom: 000044",
+        "colorTo: 000044",
+        "sides: 1"
+      ],
+      "makeFire": true,
+      "incendAmount": 15,
+      "incendSpread": 10,
+      "lifetime": 80,
+      "colors": [
+        "000044",
+        "000088",
+        "0000cc"
+      ]
+    }
+  }
+}
