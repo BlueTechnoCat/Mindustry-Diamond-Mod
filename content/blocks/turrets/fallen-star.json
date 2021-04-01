@@ -7,7 +7,7 @@
   "range": 1000,
   "reloadTime": 360,
   "shootSound": "laserblast",
-  "firstShotDelay": 50,
+  "chargeTime": 50,
   "chargeEffect": {
     "type": "WaveEffect",
     "sizeFrom": 100,
