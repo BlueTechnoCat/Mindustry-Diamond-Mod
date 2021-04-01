@@ -21,8 +21,8 @@
         "type: WaveEffect",
         "sizeFrom: 100",
         "sizeTo: 0",
-        "colorFrom: 000044",
-        "colorTo: 000044",
+        "colorFrom: 000066",
+        "colorTo: 000000",
         "sides: 1"
       ],
       "makeFire": true,
