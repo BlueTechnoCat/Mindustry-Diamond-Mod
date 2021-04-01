@@ -8,16 +8,32 @@
   "reloadTime": 240,
   "shootSound": "laserblast",
   "shootEffect": {
-    "type": "WaveEffect",
-    "sizeFrom": 100,
-    "sizeTo": 0,
-    "strokeFrom": 3,
-    "strokeTo": 0,
-    "colorFrom": "000066",
-    "colorTo": "000000",
-    "sides": 1
-    },
-  "chargeTime": 50,
+    "type": "MultiEffect",
+    "layer": 70,
+    "lifetime": 40,
+    "effects": [
+      {
+        "type": "WaveEffect",
+        "lifetime": 40,
+        "sizeFrom": 800,
+        "sizeTo": 0,
+        "strokeFrom": 3,
+        "strokeTo": 0,
+        "colorFrom": "000066",
+        "colorTo": "000000"
+      },
+      {
+        "type": "WaveEffect",
+        "lifetime": 40,
+        "sizeFrom": 0,
+        "sizeTo": 400,
+        "strokeFrom": 0,
+        "strokeTo": 3,
+        "colorFrom": "000000",
+        "colorTo": "000066"
+      }
+    ]
+  },
   "consumes": {
     "power": 84
   },
