@@ -6,6 +6,7 @@
   "size": 10,
   "reloadTime": 360,
   "shootSound": "laserblast",
+  "firstShotDelay": 50,
   "consumes": {
     "power": 84
   },
