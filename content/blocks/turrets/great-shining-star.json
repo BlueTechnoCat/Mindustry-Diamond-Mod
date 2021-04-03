@@ -20,9 +20,9 @@
     "type": "ParticleEffect",
     "lifetime": 40,
     "length": -10,
-    "baseLength": 10,
+    "baseLength": 80,
     "particles": 50,
-    "sizeFrom": 40,
+    "sizeFrom": 10,
     "sizeTo": 0,
     "colorFrom": "44ffff"
   },
