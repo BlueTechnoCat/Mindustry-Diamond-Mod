@@ -10,6 +10,8 @@
   "ammoPerShot": 5,
   "reloadTime": 240,
   "chargeTime": 80,
+  "coolantUsage": 1,
+  "coolantMultiplier": 0.5,
   "shootSound": "laserblast",
   "chargeSound": "lasercharge",
   "chargeEffect": {

@@ -1,0 +1,57 @@
+{
+  "type": "ItemTurret",
+  "name": "The Great Shining Star",
+  "description": "Once used in a galaxy far far away. Creates a massive light blue laser beam and creates little shrapnels when get hit.",
+  "details": "It's said that it's laser is so bright that it can be seen even from a faraway planet.",
+  "range": 640,
+  "health": 7500,
+  "size": 10,
+  "reloadTime": 240,
+  "maxAmmo": 50,
+  "ammoPerShot": 5,
+  "coolantUsage": 0.5,
+  "coolantMultiplier": 0.7,
+  "shootSound": "laserblast",
+  "chargeSound": "lasercharge2",
+  "consumes": {
+    "power": 64
+  },
+  "chargeEffect": {
+    "type": "ParticleEffect",
+    "lifetime": 40,
+    "length": -10,
+    "baseLength": 10,
+    "particles": 50,
+    "sizeFrom": 0,
+    "sizeTo": 3,
+    "colorFrom": "44ffff"
+  },
+  "chargeTime": 40,
+  "ammoTypes": {
+    "shining-diamond": {
+      "type": "LaserBulletType",
+      "ammoMultiplier": 1,
+      "length": 640,
+      "width": 80,
+      "hitSize": 80,
+      "lifetime": 80,
+      "largehit": true,
+      "colors": [
+        "44ffff",
+        "88ffff",
+        "ffffff"
+      ],
+      "damage": 25000
+    }
+  },
+  "requirements": [
+    "shining-diamond/100",
+    "lead/950",
+    "titanium/900",
+    "diamond-alloy/750",
+    "thorium/800",
+    "phase-fabric/700"
+  ],
+  "research": "diamond-breaker",
+  "category": "turret"
+}
