@@ -18,9 +18,10 @@
       "ffffff"
     ],
     "length": 520,
+    "hitSize": 50,
     "width": 50,
     "damage": 2500,
-    "lifetime": 65
+    "lifetime": 60
   },
   "requirements": [
     "diamond-alloy/450",
