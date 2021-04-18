@@ -9,8 +9,8 @@
   "reloadTime": 240,
   "maxAmmo": 50,
   "ammoPerShot": 5,
-  "coolantUsage": 0.5,
-  "coolantMultiplier": 0.7,
+  "coolantUsage": 1,
+  "coolantMultiplier": 0.5,
   "shootSound": "laserblast",
   "chargeSound": "lasercharge2",
   "consumes": {
@@ -35,7 +35,7 @@
       "width": 80,
       "hitSize": 80,
       "lifetime": 80,
-      "largehit": true,
+      "largeHit": true,
       "colors": [
         "44ffff",
         "88ffff",
