@@ -4,8 +4,8 @@ const shiningFrag = extend(BasicBulletType, {
     speed: 3,
     damage: 500,
     lifetime: 40,
-    frontColor: Color.ValueOf("44ffff"),
-    backColor: Color.ValueOf("ffffff"),
+    frontColor: Color.valueOf("44ffff"),
+    backColor: Color.valueOf("ffffff"),
     width: 8,
     height: 12
 });
