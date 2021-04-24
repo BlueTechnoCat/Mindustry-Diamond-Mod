@@ -21,10 +21,10 @@
   "upgrades": [
     [
       "giactror", "enoriactor"
-    ],
+    ]/*,
     [
       "healgantic", "healnormous"
-    ]
+    ]*/
   ],
     "research": "diamond-reconstructor",
     "category": "units"
