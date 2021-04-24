@@ -1,4 +1,4 @@
-const greatShiningStar = extendContent(ItemTurret, "great-shining-star", {});
+const greatShiningStar = extend(ItemTurret, "great-shining-star", {});
 
 const shiningFrag = extend(BasicBulletType, {
     speed: 3,
@@ -12,7 +12,7 @@ const shiningFrag = extend(BasicBulletType, {
 
 var h = 0;
 
-greatShiningStar.buildType = () => extendContent(ItemTurret.ItemTurretBuild, {
+greatShiningStar.buildType = () => extend(ItemTurret.ItemTurretBuild, {
 
     collision(bullet) {
         this.super$collision(bullet);

@@ -3,7 +3,7 @@
   "name": "Reacting Diamond Reconstructor",
   "description": "Upgrades the diamond units to their third tier",
   "size": 7,
-  "construcTime": 3600,
+  "constructTime": 3600,
   "consumes": {
     "power": 25,
     "items": {

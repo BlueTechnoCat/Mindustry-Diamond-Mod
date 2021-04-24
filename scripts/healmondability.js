@@ -1,11 +1,11 @@
-const healmond = extendContent(UnitType, "healmond", {});
+const healmond = extend(UnitType, "healmond", {});
 healmond.constructor = () => {
 	const unit = extend(UnitEntity, {})
 	return unit
 }
 	healmond.abilities.add(new RepairFieldAbility(1000, 100, 75));
 	
-const healgantic = extendContent(UnitType, "healgantic", {});
+const healgantic = extend(UnitType, "healgantic", {});
 healgantic.constructor = () => {
 	const unit = extend(UnitEntity, {})
 	return unit
