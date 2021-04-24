@@ -10,18 +10,19 @@ const shiningFrag = extend(BasicBulletType, {
     height: 12
 });
 
-var h = 0;
 
 greatShiningStar.buildType = () => extend(ItemTurret.ItemTurretBuild, {
+
+    h: 0,
 
         collision(bullet) {
             this.super$collision(bullet);
             if (bullet.team != this.team && Math.random() * 100 <= 40) {
-                while (h < 4) {
+                while (this.h < 4) {
                     shiningFrag.create(this, this.team, this.x, this.y, (bullet.rotation() + 180) + ((Math.random() - 0.5) * 8) * 2);
-                    h++;
+                    this.h++;
                 }
-                h = 0;
+                this.h = 0;
             }
         }
     });

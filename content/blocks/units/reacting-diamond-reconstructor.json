@@ -20,11 +20,19 @@
   },
   "upgrades": [
     [
-      "giactror", "enoriactor"
-    ]/*,
+      "giactror",
+      "enoriactor"
+    ] /*,
     [
       "healgantic", "healnormous"
     ]*/
+  ],
+  "requirements": [
+    "diamond/850",
+    "dark-diamond/450",
+    "titanium/1000",
+    "thorium/900",
+    "phase-fabric/450"
   ],
     "research": "diamond-reconstructor",
     "category": "units"
