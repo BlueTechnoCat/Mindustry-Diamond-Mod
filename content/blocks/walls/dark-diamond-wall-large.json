@@ -1,0 +1,16 @@
+{
+  "name": "Dark Diamond Wall Large",
+  "description": "",
+  "health": 150000,
+  "chanceDeflect": 100,
+  "flashHit": true,
+  "absorbLasers": true,
+  "schematicPriority": 10,
+  "size": 2,
+  "requirements": [
+    "dark-diamond/20",
+    "diamond-alloy/4"
+  ],
+  "research": "dark-diamond-wall",
+  "category": "defense"
+}
