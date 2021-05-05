@@ -18,7 +18,7 @@ plans: [
 	    silicon/1000
 	    thorium/825
 	  ]  
-    time: 900
+    time: 1800
   }
   {
 	unit: healmond
@@ -27,7 +27,7 @@ plans: [
 	    silicon/1000
 	    diamond-alloy/825
 	]
-	time: 900
+	time: 3000
   }
 ]
 

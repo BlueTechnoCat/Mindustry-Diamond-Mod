@@ -1,6 +1,6 @@
 {
   "name": "Dark Diamond Wall",
-  "description": "",
+  "description": "No one can destroy this. Creates a medium range shield, heals itself, deflects ammo and absorb piercing bullets.",
   "health": 100000,
   "chanceDeflect": 100,
   "flashHit": true,

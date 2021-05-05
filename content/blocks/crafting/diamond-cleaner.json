@@ -6,6 +6,7 @@
   "hasLiquids": true,
   "liquidCapacity": 30,
   "health": 2500,
+  "drawer": "drawAnimation",
   "craftTime": 75,
   "size": 3,
   "consumes": {
