@@ -1,6 +1,14 @@
-name: Diamond Alloy
-description: A material created by combining plastanium and diamonds, keeping plastanium properties while gaining part of diamonds resistant
-cost: 12
-hardness: 8
-color: 00ff88
-research: diamond
+{
+  "name": "Diamond Alloy",
+  "description": "A material created by combining plastanium and diamonds, keeping plastanium properties while gaining part of diamonds resistant",
+  "cost": 12,
+  "hardness": 8,
+  "color": "00ff88",
+  "research": {
+    "parent": "diamond",
+    "requirements": [
+      "diamond/2500",
+      "plastanium/5000"
+    ]
+  }
+}

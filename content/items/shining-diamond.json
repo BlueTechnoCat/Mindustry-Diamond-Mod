@@ -4,5 +4,11 @@
   "hardness": 12,
   "cost": 8,
   "color": "aaffff",
-  "research": "diamond"
+  "research": {
+    "parent": "diamond",
+    "requirements": [
+      "diamond/3000",
+      "sand/6000"
+    ]
+  }
 }

@@ -5,7 +5,8 @@ speed: 4
 flying: true
 rotateSpeed: 20
 commandLimit: 3
-drag: 0.3
+drag: 0.03
+accel: 0.05
 health: 10000
 itemCapacity: 50
 research: antumbra

@@ -5,5 +5,12 @@
   "hardness": 11,
   "cost": 9,
   "color": "000066",
-  "research": "diamond"
+  "research": {
+    "parent": "diamond",
+    "requirements": [
+      "diamond/3000",
+      "coal/6000",
+      "graphite/5000"
+    ]
+  }
 }

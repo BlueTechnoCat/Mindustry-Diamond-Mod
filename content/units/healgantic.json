@@ -1,41 +1,43 @@
-type: flying
-name: Healgantic
-description: Upgraded version of the healmond, capable of healing any block and unit in an instant
-speed: 1.25
-armor: 40
-flying: true
-commandLimit: 10
-health: 50000
-mineTier: 10
-mineSpeed: 100
-buildSpeed: 100
-research: healmond
-itemCapacity: 500
-weapons:
- [
-  {
-    name: omega-heal-cannon
-	x: 0
-	y: 0
-	mirror: false
-	shootSound: railgun
-	chargeSound: lasercharge
-	firstShotDelay: 82
-	reload: 150
-	ejectEffect: none
-	bullet: {
-	  bullet: LaserBoltBulletType
-	  width: 15
-	  height: 40
-	  frontColor: ffffff
-	  backColor: 00ff00
-	  damage: 1000
-	  lifetime: 40
-	  speed: 5
-	  shootEffect: greenLaserCharge
-	  healPercent: 100
-	  collidesTeam: true
-	  hitEffect: healWaveDynamic
-	}
-  }
-]
+{
+  "type": "flying",
+  "name": "Healgantic",
+  "description": "Upgraded version of the healmond, capable of healing any block and unit in an instant",
+  "speed": 1.25,
+  "armor": 40,
+  "flying": true,
+  "commandLimit": 10,
+  "hitSize": 10,
+  "health": 50000,
+  "mineTier": 10,
+  "mineSpeed": 100,
+  "buildSpeed": 100,
+  "itemCapacity": 500,
+  "research": "healmond",
+  "weapons": [
+    {
+      "name": "omega-heal-cannon",
+      "x": 0,
+      "y": 0,
+      "mirror": "false",
+      "shootSound": "railgun",
+      "chargeSound": "lasercharge",
+      "firstShotDelay": 82,
+      "reload": 150,
+      "ejectEffect": "none",
+      "bullet": {
+        "bullet": "LaserBoltBulletType",
+        "width": 15,
+        "height": 40,
+        "frontColor": "ffffff",
+        "backColor": "00ff00",
+        "damage": 1000,
+        "lifetime": 40,
+        "speed": 5,
+        "shootEffect": "greenLaserCharge",
+        "healPercent": 100,
+        "collidesTeam": true,
+        "hitEffect": "healWaveDynamic"
+      }
+    }
+  ]
+}
