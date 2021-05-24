@@ -2,6 +2,8 @@
   "type": "flying",
   "name": "Healgantic",
   "description": "Upgraded version of the healmond, capable of healing any block and unit in an instant",
+  "controller": "RepairAI",
+  "canHeal": true,
   "speed": 1.25,
   "armor": 40,
   "flying": true,

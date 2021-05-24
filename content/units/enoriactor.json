@@ -6,7 +6,7 @@
   "health": 45000,
   "speed": 3.9,
   "armor": 200,
-  "hitSize": 56,
+  "hitSize": 28,
   "accel": 0.04,
   "drag": 0.04,
   "rotateSpeed": 2.2,
@@ -16,11 +16,11 @@
   "weapons": [
     {
       "name": "diamond-machine-gun",
-      "reload": 8,
+      "reload": 3,
       "x": 5.5,
       "y": 7.5,
       "rotate": true,
-      "rotateSpeed": 2.8,
+      "rotateSpeed": 7,
       "bullet": {
         "type": "BasicBulletType",
         "damage": 1000,
