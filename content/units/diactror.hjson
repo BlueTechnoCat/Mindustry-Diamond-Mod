@@ -3,6 +3,7 @@ name: Diactror
 description: An ultra resistant attack ship
 speed: 4
 flying: true
+circleTarget: true
 rotateSpeed: 20
 commandLimit: 3
 drag: 0.03

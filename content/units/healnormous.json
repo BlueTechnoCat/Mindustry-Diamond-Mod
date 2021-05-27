@@ -1,0 +1,60 @@
+{
+	"type": "flying",
+	"name": "Healnormous",
+	"description": "Capable of healing any block and units in an instant. But has a very powerful shield and equipped with a secondary weapon that slows down enemy target.",
+	"flying": true,
+	"controller": "DefenderAI",
+	"canHeal": true,
+	"speed": 0.95,
+	"health": 75000,
+	"armor": 100,
+	"hitSize": 16
+	"mineTier": 10,
+	"mineSpeed": 100,
+	"buildSpeed": 100,
+	"itemCapacity": 750,
+	"research": "healgantic",
+	"weapons": [
+	  {
+		"name": "healing-gun",
+		"x": 0,
+		"y": 0,
+		"reload": 40,
+		"ejectEffect": "none",
+		"bullet": {
+			"type": "LaserBoltBulletType",
+			"width": 12,
+			"height": 20,
+			"damage": 1000,
+			"healPercent": 100,
+			"frontColor": "00ff00",
+			"backColor": "88ff88",
+			"speed": 4,
+			"lifetime": 50,
+			"collidesTeam": true
+		}
+	  },
+	  {
+		  "name": "pulse-cannon",
+		  "x": 0,
+		  "y": 0,
+		  "mirror": false,
+		  "reload": 175,
+		  "ejectEffect": "none",
+		  "bullet": {
+			  "type": "LaserBoltBulletType",
+			  "damage": 2500,
+			  "splashDamage": 1250,
+			  "homingPower": 1,
+			  "homingRadius": 200,
+			  "splashDamageRadius": 60,
+			  "width": 20,
+			  "height": 45,
+			  "frontColor": "8888ff"
+			  "backColor": "ffffff"
+			  "speed": 4.5,
+			  "lifetime": 80
+		  }
+	  }
+	]
+}
