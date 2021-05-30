@@ -7,8 +7,9 @@
 	"canHeal": true,
 	"speed": 0.95,
 	"health": 75000,
+	"commandLimit": 12,
 	"armor": 100,
-	"hitSize": 16
+	"hitSize": 16,
 	"mineTier": 10,
 	"mineSpeed": 100,
 	"buildSpeed": 100,
@@ -46,12 +47,13 @@
 			  "damage": 2500,
 			  "splashDamage": 1250,
 			  "homingPower": 1,
-			  "homingRadius": 200,
+			  "homingRange": 200,
+			  "status": "slow",
 			  "splashDamageRadius": 60,
 			  "width": 20,
 			  "height": 45,
-			  "frontColor": "8888ff"
-			  "backColor": "ffffff"
+			  "frontColor": "8888ff",
+			  "backColor": "ffffff",
 			  "speed": 4.5,
 			  "lifetime": 80
 		  }
