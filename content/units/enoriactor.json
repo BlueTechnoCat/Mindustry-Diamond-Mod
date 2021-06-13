@@ -29,9 +29,8 @@
         "lifetime": 40,
         "fragBullets": 5,
         "fragBullet": {
-          "type": "ArtilleryBulletType",
+          "type": "BasicBulletType",
           "damage": 200,
-          "collidesAir": true,
           "speed": 3,
           "lifetime": 30,
           "status": "tarred"
@@ -85,5 +84,4 @@
       }
     }
   ]
-
 }

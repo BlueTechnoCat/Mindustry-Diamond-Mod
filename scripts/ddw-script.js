@@ -13,22 +13,22 @@ const darkDiamondWall = extend(ForceProjector, "dark-diamond-wall", {
 
 darkDiamondWall.buildType = () => extend(ForceProjector.ForceBuild, darkDiamondWall, {
 
-    updateTile() {
-        if (this.damaged() && this.timer.get(0, reload)) {
-            this.heal(this.maxHealth / healing);
-            Fx.healBlockFull.at(this.x, this.y, 2, Pal.heal);
-        }
-    }
+	updateTile() {
+		if (this.damaged() && this.timer.get(0, reload)) {
+			this.heal(this.maxHealth / healing);
+			Fx.healBlockFull.at(this.x, this.y, 2, Pal.heal);
+		}
+	}
 });
 
 const darkDiamondWallLarge = extend(Wall, "dark-diamond-wall-large", {});
 
 darkDiamondWallLarge.buildType = () => extend(Wall.WallBuild, darkDiamondWallLarge, {
 
-    updateTile() {
-        if (this.damaged() && this.timer.get(0, 150)) {
-            this.heal(this.maxHealth / 40);
-            Fx.healBlockFull.at(this.x, this.y, 2, Pal.heal);
-        }
-    }
+	updateTile() {
+		if (this.damaged() && this.timer.get(0, 150)) {
+			this.heal(this.maxHealth / 40);
+			Fx.healBlockFull.at(this.x, this.y, 2, Pal.heal);
+		}
+	}
 });

@@ -20,11 +20,13 @@
   },
   "upgrades": [
     [
-      "giactror", "enoriactor"
-    ] /*,
+      "giactror",
+      "enoriactor"
+    ],
     [
-      "healgantic", "healnormous"
-    ]*/
+      "healgantic",
+      "healnormous"
+    ]
   ],
   "requirements": [
     "diamond/850",
@@ -33,6 +35,6 @@
     "thorium/900",
     "phase-fabric/450"
   ],
-    "research": "diamond-reconstructor",
-    "category": "units"
+  "research": "diamond-reconstructor",
+  "category": "units"
 }

@@ -1,11 +1,13 @@
-type: Wall
-name: Large Diamond Alloy Wall
-description: A wall made of diamond alloy with the ability of plastanium to absorb lasers but not being able to cut powernode conections. Spans multiple tiles
-health: 9000
-size: 2
-absorbLasers: true
-requirements: [
-  diamond-alloy/24
-]
-category: defense
-research: diamond-alloy-wall
+{
+  "type": "Wall",
+  "name": "Large Diamond Alloy Wall",
+  "description": "A wall made of diamond alloy with the ability of plastanium to absorb lasers but not being able to cut powernode conections.",
+  "health": 9000,
+  "size": 2,
+  "absorbLasers": true,
+  "requirements": [
+    "diamond-alloy/24"
+  ],
+  "category": "defense",
+  "research": "diamond-alloy-wall"
+}

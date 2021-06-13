@@ -1,16 +1,18 @@
-type: Pump
-name: Diamond Pump
-description: A really strong pump
-health: 3000
-size: 2
-pumpAmount: 16.67
-consumes: {
-  power: 1.67
+{
+  "type": "Pump",
+  "name": "Diamond Pump",
+  "description": "A really strong pump",
+  "health": 3000,
+  "size": 2,
+  "pumpAmount": 16.67,
+  "consumes": {
+    "power": 1.67
+  },
+  "requirements": [
+    "metaglass/80",
+    "titanium/125",
+    "diamond/100"
+  ],
+  "category": "liquid",
+  "research": "thermal-pump"
 }
-requirements: [
-  metaglass/80
-  titanium/125
-  diamond/100
-]
-category: liquid
-research: thermal-pump

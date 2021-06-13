@@ -1,39 +1,39 @@
 {
-"type": "Reconstructor",
-"name": "Diamond Reconstructor",
-"description": "Upgrades the diamond units to their second tier",
-"size": 5,
-"constructTime": 1200,
-"consumes": {
-  "power": 15,
-  "items": {
-    "items": [
-	  "diamond/750",
-	  "surge-alloy/450",
-	  "diamond-alloy/550"
-	]
+  "type": "Reconstructor",
+  "name": "Diamond Reconstructor",
+  "description": "Upgrades the diamond units to their second tier",
+  "size": 5,
+  "constructTime": 1200,
+  "consumes": {
+    "power": 15,
+    "items": {
+      "items": [
+        "diamond/750",
+        "surge-alloy/450",
+        "diamond-alloy/550"
+      ]
+    },
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 2
+    }
   },
-  "liquid": {
-    "liquid": "cryofluid",
-	"amount": 2
-  }  
-},
-"upgrades": [
-  [
-    "diactror", "giactror"
+  "upgrades": [
+    [
+      "diactror",
+      "giactror"
+    ],
+    [
+      "healmond",
+      "healgantic"
+    ]
   ],
-  [
-    "healmond", "healgantic"
-  ]
-],
-
-
-"requirements": [
-  "surge-alloy/650",
-  "phase-fabric/75",
-  "diamond-alloy/650",
-  "titanium/950"
-],
-"research": "tetrative-reconstructor",
-"category": "units"
+  "requirements": [
+    "surge-alloy/650",
+    "phase-fabric/75",
+    "diamond-alloy/650",
+    "titanium/950"
+  ],
+  "research": "tetrative-reconstructor",
+  "category": "units"
 }
