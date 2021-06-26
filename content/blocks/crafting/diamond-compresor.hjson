@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Diamond Compresor
 description: Puts coal into extreme heat and pressure to create diamonds
 liquidCapacity: 30
@@ -9,6 +9,7 @@ hasLiquids: true
 hasItems: true
 craftTime: 45
 updateEffect: smeltsmoke
+drawer: drawSmelter
 consumes: {
   power: 0.5
   items: {
