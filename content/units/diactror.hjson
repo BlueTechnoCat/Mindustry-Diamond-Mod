@@ -10,7 +10,7 @@ drag: 0.03
 accel: 0.05
 health: 10000
 itemCapacity: 50
-research: antumbra
+research: diamond-unit-factory
 weapons: [
   {
   name: diamond-shooter
