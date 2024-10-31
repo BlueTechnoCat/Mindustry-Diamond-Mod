@@ -40,6 +40,7 @@
     {
       "name": "diamond-missile-launcher",
       "reload": 27.5,
+      "mirror": "false",
       "x": 7,
       "y": -2,
       "shootSound": "missile",
@@ -63,7 +64,59 @@
     {
       "name": "diamond-missile-launcher",
       "reload": 27.5,
+      "mirror": "false",
+      "minWarmup": 0.5,
+      "x": -7,
+      "y": -2,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 3500,
+        "speed": 2.5,
+        "lifetime": 112,
+        "homingPower": 1,
+        "homingRange": 160,
+        "frontColor": "44ffff",
+        "backColor": "0088ff",
+        "trailColor": "00ffff",
+        "makeFire": true,
+        "incendAmount": 20,
+        "incendSpread": 12,
+        "splashDamage": 1750,
+        "splashDamageRadius": 160
+      }
+    },
+    {
+      "name": "diamond-missile-launcher",
+      "reload": 27.5,
+      "mirror": "false",
+      "minWarmup": 0.7,
       "x": 6.7,
+      "y": -11,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 3500,
+        "speed": 2.5,
+        "lifetime": 112,
+        "homingPower": 1,
+        "homingRange": 160,
+        "frontColor": "44ffff",
+        "backColor": "0088ff",
+        "trailColor": "00ffff",
+        "makeFire": true,
+        "incendAmount": 20,
+        "incendSpread": 12,
+        "splashDamage": 1750,
+        "splashDamageRadius": 160
+      }
+    },
+    {
+      "name": "diamond-missile-launcher",
+      "reload": 27.5,
+      "mirror": "false",
+      "minWarmup": 0.9,
+      "x": -6.7,
       "y": -11,
       "shootSound": "missile",
       "bullet": {
