@@ -9,7 +9,7 @@ hasLiquids: true
 hasItems: true
 craftTime: 45
 updateEffect: smeltsmoke
-drawer: drawSmelter
+drawer: DrawSmelter
 consumes: {
   power: 0.5
   items: {

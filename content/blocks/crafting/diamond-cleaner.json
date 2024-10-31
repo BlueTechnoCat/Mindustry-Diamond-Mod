@@ -6,7 +6,19 @@
   "hasLiquids": true,
   "liquidCapacity": 30,
   "health": 2500,
-  "drawer": "drawAnimation",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+        {
+            "type": "DrawDefault"
+        },
+        {
+            "type": "DrawFrames",
+            "frames": 3,
+            "interval": 8
+        }
+    ]
+},
   "craftTime": 75,
   "size": 3,
   "consumes": {

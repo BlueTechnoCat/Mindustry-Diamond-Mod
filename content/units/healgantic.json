@@ -41,5 +41,13 @@
         "hitEffect": "healWaveDynamic"
       }
     }
+  ],
+  "abilities": [
+    {
+			"type": "RepairFieldAbility",
+			"amount": 100000,
+			"reload": 50,
+			"range": 225
+		}
   ]
 }

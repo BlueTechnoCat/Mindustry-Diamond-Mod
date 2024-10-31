@@ -58,5 +58,21 @@
 				"lifetime": 80
 			}
 		}
+	],
+	"abilities": [
+		{
+			"type": "ForceFieldAbility",
+			"radius": 240,
+			"regen": 250,
+			"max": 37500,
+			"cooldown": 180,
+			"sides": 5
+		},
+		{
+			"type": "RepairFieldAbility",
+			"amount": 1000000,
+			"reload": 35,
+			"range": 300
+		}
 	]
 }
