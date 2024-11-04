@@ -5,11 +5,15 @@
   "size": 4,
   "health": 4500,
   "range": 520,
-  "powerUse": 34,
-  "shots": 3,
-  "reloadTime": 180,
-  "spread": 15,
+  "reload": 180,
   "shootSound": "laserblast",
+  "shoot": {
+    "shots": 3,
+    "spread": 15
+  },
+  "consumes": {
+    "power": 34
+  },
   "shootType": {
     "type": "LaserBulletType",
     "colors": [

@@ -8,12 +8,14 @@
   "range": 1000,
   "maxAmmo": 50,
   "ammoPerShot": 5,
-  "reloadTime": 240,
-  "chargeTime": 80,
+  "reload": 240,
   "coolantUsage": 2,
   "coolantMultiplier": 0.7,
   "shootSound": "laserblast",
   "chargeSound": "lasercharge",
+  "shoot": {
+    "shotDelay": 80
+  },
   "chargeEffect": {
         "type": "WaveEffect",
         "lifetime": 80,
